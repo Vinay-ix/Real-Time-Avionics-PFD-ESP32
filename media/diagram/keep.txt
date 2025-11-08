@@ -1,1 +1,19 @@
 
+| Module                  | Pin on module | Connect to ESP32 | Notes                              |
+| ----------------------- | ------------- | ---------------- | ---------------------------------- |
+| **SSD1306 OLED (0x3C)** | VCC           | 3V3              | 3.3 V only                         |
+|                         | GND           | GND              | common ground                      |
+|                         | SDA           | GPIO21           | I²C data                           |
+|                         | SCL           | GPIO22           | I²C clock                          |
+| **MPU6050 (0x68)**      | VCC           | 3V3              | 5 V will damage sensor             |
+|                         | GND           | GND              |                                    |
+|                         | SDA           | GPIO21           | shared I²C                         |
+|                         | SCL           | GPIO22           | shared I²C                         |
+| **ADXL345 (0x53)**      | VCC           | 3V3              | If ALT pin pulled high → addr 0x1D |
+|                         | GND           | GND              |                                    |
+|                         | SDA           | GPIO21           | shared I²C                         |
+|                         | SCL           | GPIO22           | shared I²C                         |
+| **BMP280 (0x76)**       | VCC           | 3V3              | Some boards are 0x77 (SDO high)    |
+|                         | GND           | GND              |                                    |
+|                         | SDA           | GPIO21           | shared I²C                         |
+|                         | SCL           | GPIO22           | shared I²C                         |
