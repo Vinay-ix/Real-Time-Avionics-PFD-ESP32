@@ -154,6 +154,8 @@ Run the sketch → PFD appears & updates in real time.
 media/screenshots/pfd_running.png
 media/demo/pfd_demo.mp4
 
+---
+
 🧩 Future Enhancements
 
 Synthetic Vision Terrain (SVS)
@@ -169,6 +171,9 @@ Black-box flight data recorder
 Engine/system pages
 
 Pitot-based IAS simulation
+
+---
+
 📁 License
 
 MIT License — free to use for education and research.
@@ -177,6 +182,4 @@ MIT License — free to use for education and research.
 
 Vinay Sharma
 Embedded Systems • Avionics Simulation • ECE
-
-## 🧠 System Architecture
 
