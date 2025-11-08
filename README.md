@@ -1,7 +1,7 @@
 # 🛫 Real-Time Avionics Primary Flight Display (PFD) Using ESP32 & Processing  
 ### Boeing-Style Glass Cockpit • Real-Time Sensor Fusion • Embedded Avionics System
 
-This project implements a fully functional **Primary Flight Display (PFD)** similar to those found in commercial aircraft such as the Boeing 737/747/787.  
+This project implements a fully functional **Primary Flight Display (PFD)** similar to those found in commercial aircraft
 An **ESP32** collects and fuses sensor data (attitude, altitude, heading), and a **Processing 4.x** application renders a real-time **Boeing-style PFD**.
 
 ---
@@ -146,9 +146,10 @@ processing/BoeingPFD.pde
 
 Select correct COM port:
 
-```java
+java
 int PORT_INDEX = 0;
 Run the sketch → PFD appears & updates in real time.
+
 
 media/screenshots/pfd_running.png
 media/demo/pfd_demo.mp4
