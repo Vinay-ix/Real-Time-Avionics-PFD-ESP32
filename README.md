@@ -68,7 +68,6 @@ The Processing application displays:
 - Gyro-Z integration for heading  
 - ADXL345-based failover  
 - BMP280 altitude + VSI  
-- Clean CSV output (no debug text)  
 - Optional IAS field  
 - OLED debug support  
 - Drift suppression + NaN protections  
@@ -79,9 +78,7 @@ The Processing application displays:
 - FD guidance bars  
 - Airspeed/Altitude/VSI/Heading tapes  
 - Digital readouts  
-- 1600×900 optimized layout  
-- NaN-safe rendering  
-- Robust serial parser  
+- 1600×900 optimized layout    
 
 ---
 
