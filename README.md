@@ -148,7 +148,8 @@ int PORT_INDEX = 0;
 Run the sketch → PFD appears & updates in real time.
 
 
-media/screenshots/pfd_running1.png
+media/screenshot/pfd_running1.png
+
 media/demo/demo1.mp4
 
 ---
